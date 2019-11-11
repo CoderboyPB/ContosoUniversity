@@ -17,7 +17,7 @@ namespace ContosoUniversity.Data
             }
             var students = new Student[]
             {
-                new Student { FirstMidName = "Carson",   LastName = "Alexandra",
+                new Student { FirstMidName = "Carson",   LastName = "Alessandro",
                     EnrollmentDate = DateTime.Parse("2010-09-01") },
                 new Student { FirstMidName = "Meredith", LastName = "Alonso",
                     EnrollmentDate = DateTime.Parse("2012-09-01") },
@@ -32,7 +32,9 @@ namespace ContosoUniversity.Data
                 new Student { FirstMidName = "Laura",    LastName = "Norman",
                     EnrollmentDate = DateTime.Parse("2013-09-01") },
                 new Student { FirstMidName = "Nino",     LastName = "Olivetto",
-                    EnrollmentDate = DateTime.Parse("2005-09-01") }
+                    EnrollmentDate = DateTime.Parse("2005-09-01") },
+                new Student { FirstMidName = "Mirco",     LastName = "Stöpke",
+                    EnrollmentDate = DateTime.Parse("1976-09-01") }
             };
 
             foreach (Student s in students)
